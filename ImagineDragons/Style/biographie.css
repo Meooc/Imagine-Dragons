@@ -1,0 +1,209 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    top: 0;
+    left: -56px;
+    position: absolute;
+    width: 1800x;
+    z-index: -100;
+}
+
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+}
+  
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 28px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+  
+.header-right a:hover {
+  -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  transition: 0.5s;
+  filter:drop-shadow(5px 5px 5px black);
+}
+
+.header-right {
+  float: right;
+}
+
+.header img{
+  width: 500px;
+  height: 200px;
+}
+
+.header img:hover{
+  -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  transition: 0.5s;
+  filter:drop-shadow(5px 5px 5px black);
+}
+
+.infos{
+    text-align: center;
+    position: relative;
+    top: 15em;
+}
+
+.infos h1{
+    font-size: 40px;
+}
+
+.infos p{
+  font-size: 17px;
+  font-weight:600;
+}
+
+.bio{
+    text-align: justify;
+    position: relative;
+}
+
+.bio2{
+    text-align: justify;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+
+.paragraphe1{
+    top: 2em;
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+}
+
+.paragraphe2{
+    color: white;
+    background-color: black;
+    top: 2em;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#debuts{
+    position: relative;
+    top: 2em;
+}
+
+#succes{
+    position: relative;
+    top: 2em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#album{
+    position: relative;
+    top: 4em;
+}
+
+#revolution{
+    position: relative;
+    top: 1.5em;
+    margin-right: 40px;
+}
+
+.titreBio{
+    position: relative;
+    top: 2em;
+    margin-left: 40px;
+}
+
+.titreBio2{
+    position: relative;
+    top: 1em;
+    margin-left: 40px;
+    background-color: black;
+    color: white;
+}
+
+.infos img{
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 600px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+.bio2 img{
+    border: 1px solid white;
+    margin-bottom: 30px;
+}
+
+#concert{
+    width: 500px;
+    height: 300px;
+}
+
+footer{
+    position: relative;
+    top: 17em;
+    height: 10em;
+    padding: 30px;
+    background-color: #43a9c9;
+    font-weight:600;
+    color: black;
+  }
+  
+  ul{
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  li{
+    padding: 25px;
+    font-size: 25px;
+    display:inline-block;
+  }
+  
+  li:hover{
+    -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    transition: 0.5s;
+  }
+  
+  ul a {
+    color:inherit;
+    text-decoration:none;
+  }
+  
+  .social{
+    display: flex;
+    float: right;
+  }
+  
+  .social img{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+
+  
+  .social img:hover{
+    -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px 4px rgb(43, 43, 43);
+    -moz-box-shadow: 0px 0px 10px 4px rgb(43, 43, 43);
+    -webkit-box-shadow: 0px 0px 10px 4px rgb(43, 43, 43);
+  }
